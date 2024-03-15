@@ -1,7 +1,7 @@
 /* side navbar */
 
 .background-image{
-    background-image: url(/assets/images/second-page-background.webp);
+    /* background-image: url(/assets/images/second-page-background.webp); */
     /* width: 100%; */
     height: fit-content; 
     background-position: center center;
@@ -709,14 +709,20 @@
     height: 3px;
     background-color: #ffffff;
     position: relative;
-    top: 500px;
+    top: 495px;
 }
 
 .footer-content-mine h1{
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
     position: absolute;
     top: 374rem;
     padding-left: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+
+.sidebar.active ~ .WINGS-TENDERS h1 {
+   display: none;
 }
