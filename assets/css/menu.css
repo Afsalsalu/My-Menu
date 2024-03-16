@@ -421,6 +421,19 @@
     text-decoration: none;
 }
 
+/* .top-fixed-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #000000;
+    
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: fit-content;
+} */
+
+
 .loyalty-min-div{
     display: flex;
     position: absolute;
@@ -555,12 +568,6 @@
     padding-top: 20px;
 }
 
-/* .top-fixed-navbar{
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    
-} */
 
 
 .bestseller-img-name-mine-second {
@@ -776,4 +783,29 @@
     margin-top: 15px;
     font-size: 12px;
     font-weight: 400;
+}
+
+
+/* feefback start */
+
+.feddback-mine {
+    width: 50%;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+
+.WhatsApp-number-text {
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.verification-code {
+      color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 7px;
 }
