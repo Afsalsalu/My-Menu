@@ -418,6 +418,7 @@
     text-align: center;
     padding-top: 5px;
     margin: 0;
+    text-decoration: none;
 }
 
 .loyalty-min-div{
@@ -725,4 +726,54 @@
 
 .sidebar.active ~ .WINGS-TENDERS h1 {
    display: none;
+}
+
+
+/* favorite section start */
+
+.parent-mine-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   position: relative;
+   bottom: 400px;
+}
+
+.favorite-content-mine-div {
+    width: 257px;
+    height:265px;
+    background-color:transparent;
+    position: relative;
+    top: 500px;
+    border-radius: 8px;
+}
+
+.favorite-image img{
+    width: 260px;
+    height: 210px;
+    
+}
+
+.favorite-name-div h1{
+    color: #878585;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 7px;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.browse-menu-button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 10px;
+    width: 120px;
+    height: 30px;
+    border: solid white 1px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 400;
 }

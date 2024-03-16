@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+
+</head>
+
+<body style="background-image: url(assets/images/second-page-background.webp);">
+    <div class="background-image">
+        <div class="sidebar">
+            <div class="top">
+                <div class="logo">
+
+                </div>
+
+
+                <i class="bx bxs-arrow-from-left" id="btn"></i>
+                <hr class="sidebar-hr" style="color:#ffffff; height: 2px; background-color: #ffffff; margin-top: 0;">
+            </div>
+            <div class="user">
+                <img src="assets/images/sidebar-logo.png" alt="" class="user-img">
+
+            </div>
+            <ul style="padding: 0px;">
+                <li><a href="food-menu.html"><i class='bx bx-home'></i><span class="nav-item">Home</span></a>
+                    <!-- <span class="tooltip">Home</span> --></li>
+
+
+                <li><a href="favorite.html"><i class='bx bx-heart fs-4'></i><span class="nav-item">Favorite</span></a>
+                    <!-- <span class="tooltip">Favorite</span> --></li>
+
+
+                <li><a href="#"><i class='bx bx-smile fs-3'></i><span class="nav-item">Feedback</span></a>
+                    <!-- <span class="tooltip">Feedback</span>--></li>
+
+
+                <li><a href="#"><i class='bx bx-message-rounded-dots'></i><span
+                            class="nav-item">Chat</span></a><!-- <span class="tooltip">Chat</span> --></li>
+
+
+                <li><a href="#"><i class='bx bx-arrow-from-left'></i><span class="nav-item">Privacy Policy</span></a>
+                    <!--<span class="tooltip"> Privacy Policy</span>-->
+                </li>
+
+                <!-- <li><a href="#"><i class="bx bx-location-plus"></i><span class="nav-item">shipping</span></a> <span class="tooltip">shipping</span></li>  -->
+
+                <!-- <li><a href="#"><i class="bx bx-cog"></i><span class="nav-item">settings</span></a><span class="tooltip">settings</span></li>
+
+            <li><a href="#"><i class="bx bx-log-out"></i><span class="nav-item">Logout</span></a><span class="tooltip">Logout</span></li> -->
+
+
+            </ul>
+        </div>
+        <div class="main-content">
+
+            <div class="top-fixed-navbar">
+                <div class="container">
+
+                </div>
+
+                <div>
+                    <h1 class="dubai-mall-headding">Black Tap Dubai Mall Demo</h1>
+                </div>
+                <div>
+                    <!-- Side Nav Icons -->
+                    <div class="first-page-side-icons">
+                        <div id="food-icon">
+                            <div class="first-food-icon" id="">
+                                <h3> <i class='bx bxs-bowl-hot'></i></h3>
+                            </div>
+                        </div>
+                        <div class="dropdown" id="dropdown">
+                            <div class="first-language-icon" id="language">
+                                <h3>EN <i class='bx bx-chevron-down'></i></h3>
+                                <div class="dropdown-content" id="d-content">
+                                    <a href="#">Arabic-العربية</a>
+                                    <a href="#">English</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sign-in-button">
+                            <h3> <i class='bx bx-user'></i><span>Sign In</span></h3>
+                        </div>
+                    </div>
+
+
+                </div>
+
+              
+             <div class="parent-mine-div">
+                <div class="favorite-content-mine-div">
+                    <div class="favorite-image"><img src="assets/images/favorite-image/favoriteimg.png" alt="">
+                    </div>
+                    <div class="favorite-name-div">
+                        <h1>Somethings went wrong</h1>
+                       <button class="browse-menu-button">Browse Menu</button>
+                    </div>
+                </div>
+             </div>
+
+                
+
+
+
+          
+
+
+
+        </div>
+    </div>
+
+    <script src="assets/js/side-nav.js"></script>
+
+    <script src="assets/js/toggle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active')
+    };
+</script>
+
+</html>
