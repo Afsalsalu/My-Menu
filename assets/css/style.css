@@ -182,6 +182,13 @@ label #btnf{
    position: absolute !important;
      cursor: pointer !important; 
      z-index: 1;
+     transition: transform .2s;
+}
+
+label #btnf:hover{
+    -ms-transform: scale(.9); /* IE 9 */
+  -webkit-transform: scale(.9); /* Safari 3-8 */
+  transform: scale(.9);
 }
  
 
@@ -270,10 +277,16 @@ label #btnf :hover{
     margin-top: 240px;
     border-radius: 100px;
     cursor: pointer;
-   
-   
-   
+    transition: transform .2s;
+ 
 }
+
+.menu-items-div:hover{
+    -ms-transform: scale(.9); /* IE 9 */
+  -webkit-transform: scale(.9); /* Safari 3-8 */
+  transform: scale(.9);
+}
+ 
 
 .menu-items-div h3{
     color: #ffffff;
@@ -305,8 +318,15 @@ label #btnf :hover{
     /* margin-bottom: 65px; */
     margin-top: -84px;
     display: none;
-    
+  
 }
+
+.DRINKS-MENU:hover{
+    -ms-transform: scale(.9); /* IE 9 */
+  -webkit-transform: scale(.9); /* Safari 3-8 */
+  transform: scale(.9);
+}
+ 
 
 /* .menu-and-menu input{
     width: 780px;
@@ -330,7 +350,15 @@ label #btnf :hover{
     margin-bottom: 2px;
     text-align: center;
     color: rgb(0, 0, 0);
+    transition: transform .1s;
 }
+
+.menu-and-menu button:hover{
+    -ms-transform: scale(.9); /* IE 9 */
+  -webkit-transform: scale(.9); /* Safari 3-8 */
+  transform: scale(.9);
+}
+ 
 
 /* .dropbtn {
     background-color: #4CAF50;
