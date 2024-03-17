@@ -1161,6 +1161,7 @@ label #btnf :hover{
         width: 100px;
         position: absolute;
         left: -76px;
+        top: -22px;
     }
 
     .loyalty-div-one i {
@@ -1170,12 +1171,18 @@ label #btnf :hover{
 
     .loyalty-div-two {
         width: 240px;
+        position: absolute;
+    left: 33px;
+    top: -22px;
     }
 
     .craft-burger-div-one img {
         position: absolute;
-        left: -80px;
-        width: 349px;
+        left: -66px;
+        width: 346px;
+        position: absolute;
+        left: -78px;
+        top: -10px;
     }
 
     .option-menu-mine {
@@ -1200,17 +1207,17 @@ label #btnf :hover{
         width: 154px;
         position: relative;
         top: 529px;
-        left: -59px;
+        left: -64px;
     }
 
     .bestseller-img-div img {
         width: 154px;
-        height: 140px;
+        height: 135px;
     }
 
     .bestseller-img-name-mine {
         grid-template-columns: auto auto;
-        grid-gap: 15px 15px;
+        grid-gap: 10px 15px;
     }
 
     .bestseller-img-name-mine-second {
@@ -1220,7 +1227,7 @@ label #btnf :hover{
 
     .bestseller-img-name-mine-second {
         position: relative;
-    right: 71px;
+        right: 76px;
     }
 
     .bestseller-name-mine-two {
