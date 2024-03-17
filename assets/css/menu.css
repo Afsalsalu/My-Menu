@@ -633,8 +633,9 @@
   grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 20px;
-    position: relative;
-    bottom: 220px;
+    /* position: relative;
+    bottom: 220px; */
+    margin-top: -213px;
 }
 
 
@@ -645,8 +646,9 @@
   grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 50px;
-    position: relative;
-    bottom: 220px;
+    /* position: relative;
+    bottom: 220px; */
+    margin-top: 0px;
 }
 
 .WINGS-TENDERS h1{
@@ -708,8 +710,7 @@
     grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 50px;
-    position: relative;
-    bottom: 220px;
+    margin-top: 0px;
 }
 
 .specialty-fries h1{
@@ -728,8 +729,7 @@
     grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 50px;
-    position: relative;
-    bottom: 220px;
+    margin-top: 0px;
 }
 
 
@@ -751,8 +751,7 @@
     /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 50px;
-    position: relative;
-    bottom: 220px;
+    margin-top: 0px;
 }
 
 .off-the-record h1{
@@ -771,8 +770,7 @@
     grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 50px;
-    position: relative;
-    bottom: 220px;
+    margin-top: 0px;
 }
 
 .sauce-it-up h1 {
@@ -800,7 +798,7 @@
     height: 2px;
     background-color: #ffffff;
     position: relative;
-    top: 270px;
+    top: 480px;
 }
 
 .footer-content-mine h1{
@@ -827,8 +825,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-   position: relative;
-   bottom: 400px;
+    margin-top: 0px;
 }
 
 .favorite-content-mine-div {
@@ -957,7 +954,7 @@
 
     .bestseller-img-name-mine-two {
         width: 320px;
-        height: 290px;
+        height: 242px;
     }
 
     .bestseller-img-div img{
@@ -1236,11 +1233,13 @@ label #btnf :hover{
     .bestseller-img-name-mine-second {
         grid-template-columns: auto auto;
         grid-gap: 15px 15px;
+        margin-top: -237px;
     }
 
     .bestseller-img-name-mine-second {
         position: relative;
         right: 0px;
+        margin-top: -50px;
     }
 
     .bestseller-name-mine-two {
@@ -1250,16 +1249,19 @@ label #btnf :hover{
     .bestseller-img-name-mine-third {
         grid-template-columns: auto auto;
         grid-gap: 15px 15px;
+        margin-top: -50px;
     }
 
     .bestseller-img-name-mine-forth {
         grid-template-columns: auto auto;
         grid-gap: 15px 15px;
+        margin-top: -50px;
     }
 
     .bestseller-img-name-mine-craft-salad {
         grid-template-columns: auto auto;
         grid-gap: 15px 15px;
+        margin-top: -50px;
     }
 
 }
