@@ -1215,6 +1215,7 @@ label #btnf :hover{
 
     .bestseller-img-name-mine-two {
         width: 167px;
+        height: 235px;
         position: relative;
         top: 529px;
         left: 0px;
@@ -1228,18 +1229,19 @@ label #btnf :hover{
     .bestseller-img-name-mine {
         grid-template-columns: auto auto;
         grid-gap: 10px 15px;
+        margin-top: -247px;
     }
 
     .bestseller-img-name-mine-second {
         grid-template-columns: auto auto;
         grid-gap: 15px 15px;
-        margin-top: -237px;
+        margin-top: -357px;
     }
 
     .bestseller-img-name-mine-second {
         position: relative;
         right: 0px;
-        margin-top: -50px;
+        margin-top: 0px;
     }
 
     .bestseller-name-mine-two {
@@ -1249,19 +1251,43 @@ label #btnf :hover{
     .bestseller-img-name-mine-third {
         grid-template-columns: auto auto;
         grid-gap: 15px 15px;
-        margin-top: -50px;
+        margin-top: -18px;
     }
 
     .bestseller-img-name-mine-forth {
         grid-template-columns: auto auto;
         grid-gap: 15px 15px;
-        margin-top: -50px;
+        margin-top: -18px;
     }
 
     .bestseller-img-name-mine-craft-salad {
         grid-template-columns: auto auto;
         grid-gap: 15px 15px;
-        margin-top: -50px;
+        margin-top: -18px;
     }
+
+    .bestseller h1 {
+        font-size: 16px;
+    }
+
+    .WINGS-TENDERS h1 {
+        position: absolute;
+        top: 142.5rem;
+        font-size: 16px;
+    }
+
+    .CRAFT-BURGERS h1 {
+        position: absolute;
+        top: 174rem;
+        font-size: 16px;
+    }
+
+    .specialty-fries h1 {
+        position: absolute;
+        top: 301rem;
+        font-size: 16px;
+    }
+
+
 
 }
