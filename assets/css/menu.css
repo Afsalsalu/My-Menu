@@ -434,7 +434,7 @@
 }
 .carousel-mine-master .list .item h4{
     color: #ffffff;
-    font-size: 12px;
+    font-size: 10px;
     /* margin-bottom: 10px; */
     white-space: nowrap;
     overflow: hidden;
@@ -943,7 +943,7 @@
     }
 }
 
-@media screen and (min-width:1024px) and (max-width:1280px) {
+@media screen and (min-width:1024px) and (max-width:1215px) {
     .nav-filter{
         position: absolute;
         left: 95.4%;
@@ -961,12 +961,252 @@
     }
 
     .bestseller-img-name-mine-two {
-        width: 273px;
+        width: 320px;
+        height: 290px;
     }
 
     .bestseller-img-div img{
-        width: 273px;
+        width: 320px;
+        height: 190px;
+    }
+
+    label #btnf {
+        display: block;
     }
 
      
+}
+
+
+
+.sidebar-toggle-div{
+    width: 39%;
+    height: 100vh;
+    background-color: #616161;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    /* left: -500px; */
+    display: none;
+   
+}
+
+.login-li{
+    text-decoration: none;
+    padding-left: 25px;
+    position: relative;
+    top: 15px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.toggle-items{
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    line-height: 44px;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-family: sans-serif;
+}
+
+
+.toggle-items a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.toggle-items a:hover {
+    color: #ffffff;
+}
+
+.item-content{
+    padding-left: 10px;
+    position: relative;
+    bottom: 8px;
+    font-weight: lighter;
+    font-size: 13px;
+
+}
+
+.toggle-items a:hover{
+    padding-left: 14px;
+    transition: 0.5s;
+    color: #ffffff;
+}
+
+.toggle-last-section-div{
+    padding-left: 150px;
+    padding-top: 280px;
+}
+
+.toggle-last-section-div p{
+    font-size: 11px;
+    padding-left: 30px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.toggle-last-section{
+    padding-left: 20px;
+}
+
+
+  .toggle-logo {
+    width: 100px;
+    /* padding-left: 150px;
+    padding-bottom: 10px; */
+  }
+  
+  .toggle-logo img {
+    width: 130px;
+    /* padding-top: 270px; */
+  }
+
+#check{
+    display: none;
+}
+
+label #btnf{
+   position: absolute !important;
+     cursor: pointer !important; 
+     z-index: 1;
+     transition: transform .2s;
+}
+
+label #btnf:hover{
+    -ms-transform: scale(.9); /* IE 9 */
+  -webkit-transform: scale(.9); /* Safari 3-8 */
+  transform: scale(.9);
+}
+ 
+
+label #btnf{
+    left: 12px;
+    top: 10px;
+    font-size: 28px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+    
+}
+
+label #btnf :hover{
+    text-decoration: none;
+	color: #000;
+}
+
+.toggle-close{
+   /* padding-left: 100px; */
+   float: right;
+   font-size: 24px;
+   padding-right: 20px;
+   /* color: black;
+   background-color: #ffffff; */
+}
+
+@media (max-width:576px) {
+    .first-page-side-icons {
+        position: absolute;
+        right: 3%;
+        top: -13px;
+    }
+
+    .dubai-mall-headding {
+        position: absolute;
+        top: -5px;
+        left: 0;
+        font-size: 12px;
+    }
+
+    label #btnf{
+        display: block;
+        
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .switch-to-view {
+        width: 38px;
+        height: 36px;
+        position: absolute;
+        left: -48px;
+        top: 29px;
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+
+    .serch-bar {
+        position: absolute;
+        left: 0px;
+        top: 32px;
+        width: 85.9%;
+    }
+
+    .nav-filter {
+        position: absolute;
+        left: 86%;
+        top: 32px;
+    }
+
+    .sign-in-button {
+        display: none;
+    }
+
+    .first-food-icon {
+        display: none;
+    }
+
+    .loyalty-div-one {
+        width: 100px;
+        position: absolute;
+        left: -76px;
+    }
+
+    .loyalty-div-one i {
+        padding-left: 0px;
+        font-size: 30px;
+    }
+
+    .loyalty-div-two {
+        width: 240px;
+    }
+
+    .craft-burger-div-one img {
+        position: absolute;
+        left: -80px;
+        width: 349px;
+    }
+
+    .option-menu-mine {
+        position: absolute;
+        left: -45px;
+        top: 80px;
+    }
+
+    /* .carousel-mine-master .list {
+        display: flex;
+        gap: 10px;
+        overflow-x: scroll;
+        z-index: 999;
+    } */
+
+    .carousel-mine-master .list .item {
+        min-width: 120px;
+        width: 160px;
+    }
+
+    .bestseller-img-name-mine-two {
+        width: 119px;
+        position: relative;
+        top: 529px;
+        left: -59px;
+    }
+
+
 }
