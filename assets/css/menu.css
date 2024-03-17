@@ -628,10 +628,9 @@
 }
 
 .bestseller-img-name-mine {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px 25px;
-    /* grid-template-columns:auto auto auto 250px; */
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 20px;
     position: relative;
@@ -641,10 +640,9 @@
 
 
 .bestseller-img-name-mine-second {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px 25px;
-    /* grid-template-columns:auto auto auto 250px; */
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 50px;
     position: relative;
@@ -705,10 +703,9 @@
 }
 
 .bestseller-img-name-mine-third {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px 25px;
-    /* grid-template-columns:auto auto auto 250px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 50px;
     position: relative;
@@ -726,10 +723,9 @@
 }
 
 .bestseller-img-name-mine-forth {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px 25px;
-    /* grid-template-columns:auto auto auto 250px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 50px;
     position: relative;
@@ -749,9 +745,9 @@
 }
 
 .bestseller-img-name-mine-craft-salad {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px 25px;
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 25px 25px;
     /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 50px;
@@ -770,10 +766,9 @@
 }
 
 .bestseller-img-name-mine-off-the-record{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px 25px;
-    /* grid-template-columns:auto auto auto 250px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 50px;
     position: relative;
@@ -1196,17 +1191,55 @@ label #btnf :hover{
         z-index: 999;
     } */
 
-    .carousel-mine-master .list .item {
+    /* .carousel-mine-master .list .item {
         min-width: 120px;
         width: 160px;
-    }
+    } */
 
     .bestseller-img-name-mine-two {
-        width: 119px;
+        width: 154px;
         position: relative;
         top: 529px;
         left: -59px;
     }
 
+    .bestseller-img-div img {
+        width: 154px;
+        height: 140px;
+    }
+
+    .bestseller-img-name-mine {
+        grid-template-columns: auto auto;
+        grid-gap: 15px 15px;
+    }
+
+    .bestseller-img-name-mine-second {
+        grid-template-columns: auto auto;
+        grid-gap: 15px 15px;
+    }
+
+    .bestseller-img-name-mine-second {
+        position: relative;
+    right: 71px;
+    }
+
+    .bestseller-name-mine-two {
+        width: 154px;
+    }
+
+    .bestseller-img-name-mine-third {
+        grid-template-columns: auto auto;
+        grid-gap: 15px 15px;
+    }
+
+    .bestseller-img-name-mine-forth {
+        grid-template-columns: auto auto;
+        grid-gap: 15px 15px;
+    }
+
+    .bestseller-img-name-mine-craft-salad {
+        grid-template-columns: auto auto;
+        grid-gap: 15px 15px;
+    }
 
 }
