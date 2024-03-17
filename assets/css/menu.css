@@ -742,7 +742,7 @@
     font-size: 14px;
     font-weight: normal;
     position: absolute;
-    top: 239.3rem;
+    top: 237.3rem;
     padding-left: 20px; 
     cursor:default;
 
@@ -771,7 +771,7 @@
 
 .bestseller-img-name-mine-off-the-record{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 25px 25px;
     /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
@@ -943,10 +943,30 @@
     }
 }
 
-@media screen and (min-width:1024) and (max-width:1280) {
+@media screen and (min-width:1024px) and (max-width:1280px) {
     .nav-filter{
         position: absolute;
-        left: 94.5%;
+        left: 95.4%;
         top: 53px;
     }
+
+    .bestseller-img-name-mine-craft-salad {
+        position: relative;
+        bottom: 245px;
+    }
+
+    .kids-section-title h1{
+        top: 335.5rem;
+       
+    }
+
+    .bestseller-img-name-mine-two {
+        width: 273px;
+    }
+
+    .bestseller-img-div img{
+        width: 273px;
+    }
+
+     
 }
