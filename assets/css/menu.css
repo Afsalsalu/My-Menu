@@ -390,9 +390,75 @@
    
 }
 
+.carousel-mine-master{
+    padding: 20px 0px;
+}
+/* .spotify-playlists h2{
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+} */
+.carousel-mine-master .list{
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    padding-top: 70px;
+}
+.carousel-mine-master .item{
+    /* min-width: 140px; */
+    /* width: 100%; */
+    /* padding: 15px; */
+    background-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4;
+    height: fit-content;
+    text-align: center;
+}
+/* .spotify-playlists .item:hover{
+    background-color: #252525;
+} */
+.carousel-mine-master .item img{
+    width: 120px;
+    height: 80px;
+    border-radius: 6px;
+    
+    /* margin-bottom: 10px; */
+}
+.carousel-mine-master .item .play{
+    position: relative;
+}
+.carousel-mine-master .list .item:hover .play .fa{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+.carousel-mine-master .list .item h4{
+    color: #ffffff;
+    font-size: 12px;
+    /* margin-bottom: 10px; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* width: 100%; */
+    margin-top: 5px;
+    font-weight: 400;
+}
+.carousel-mine-master .list .item p{
+    color: #989898;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+}
+/* .carousel-mine-master hr{
+    margin: 70px 0px 0px;
+    border-color: #f71f1f;
+} */
+
+
+/* 
 .food-carousel-mine{
     display: flex;
-    gap: 8px;
+    gap: 10px;
     position: absolute;
     left: 32px;
     top: 130px;
@@ -419,7 +485,7 @@
     padding-top: 5px;
     margin: 0;
     text-decoration: none;
-}
+} */
 
 /* .top-fixed-navbar {
     position: sticky;
@@ -527,6 +593,7 @@
     padding-left: 7px;
     padding-top: 5px;
     margin: 0;
+    cursor:default;
 }
 
 .bestseller-name-div h2{
@@ -536,6 +603,7 @@
     padding-left: 7px;
     padding-top: 5px;
     margin: 0;
+    cursor:default;
 }
 
 .bestseller-img-name-mine-two {
@@ -566,6 +634,8 @@
     /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 20px;
+    position: relative;
+    bottom: 220px;
 }
 
 
@@ -577,6 +647,8 @@
     /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 50px;
+    position: relative;
+    bottom: 220px;
 }
 
 .WINGS-TENDERS h1{
@@ -584,8 +656,9 @@
     font-size: 14px;
     font-weight: normal;
     position: absolute;
-    top: 107.5rem;
+    top: 108rem;
     padding-left: 20px;
+    cursor:default;
 }
 
 
@@ -607,6 +680,7 @@
     margin: 0;
     position: relative;
     top: 7px;
+    cursor:default;
 }
 
 .bestseller-name-div-second h2 {
@@ -618,6 +692,7 @@
     margin: 0;
     position: relative;
     top: 7px;
+    cursor:default;
 }
     
 .CRAFT-BURGERS h1{
@@ -636,6 +711,8 @@
     /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 50px;
+    position: relative;
+    bottom: 220px;
 }
 
 .specialty-fries h1{
@@ -643,8 +720,9 @@
     font-size: 14px;
     font-weight: normal;
     position: absolute;
-    top: 200.5rem;
+    top: 200.6rem;
     padding-left: 20px;
+     cursor:default;
 }
 
 .bestseller-img-name-mine-forth {
@@ -654,6 +732,8 @@
     /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 50px;
+    position: relative;
+    bottom: 220px;
 }
 
 
@@ -662,8 +742,9 @@
     font-size: 14px;
     font-weight: normal;
     position: absolute;
-    top: 239rem;
-    padding-left: 20px;
+    top: 239.3rem;
+    padding-left: 20px; 
+    cursor:default;
 
 }
 
@@ -674,6 +755,8 @@
     /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 50px;
+    position: relative;
+    bottom: 220px;
 }
 
 .off-the-record h1{
@@ -681,8 +764,9 @@
     font-size: 14px;
     font-weight: normal;
     position: absolute;
-    top: 277.5rem;
+    top: 277.6rem;
     padding-left: 20px;
+    cursor:default;
 }
 
 .bestseller-img-name-mine-off-the-record{
@@ -692,6 +776,8 @@
     /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 50px;
+    position: relative;
+    bottom: 220px;
 }
 
 .sauce-it-up h1 {
@@ -701,6 +787,7 @@
     position: absolute;
     top: 298rem;
     padding-left: 20px;
+    cursor:default;
 }
 
 .kids-section-title h1{
@@ -710,6 +797,7 @@
     position: absolute;
     top: 335.5rem;
     padding-left: 20px;
+    cursor:default;
 }
 
 .footer-line{
@@ -717,7 +805,7 @@
     height: 2px;
     background-color: #ffffff;
     position: relative;
-    top: 495px;
+    top: 270px;
 }
 
 .footer-content-mine h1{
@@ -725,10 +813,11 @@
     font-size: 13px;
     font-weight: normal;
     position: absolute;
-    top: 374rem;
+    top: 373rem;
     padding-left: 20px;
     padding-bottom: 20px;
     line-height: 20px;
+    cursor:default;
 }
 
 .sidebar.active ~ .WINGS-TENDERS h1 {
@@ -770,6 +859,7 @@
     padding-top: 5px;
     margin: 0;
     font-weight: 600;
+    cursor:default;
 }
 
 .browse-menu-button {
@@ -808,4 +898,55 @@
     font-size: 14px;
     font-weight: normal;
     padding-top: 7px;
+}
+
+.number-input {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .carousel-mine-master .list {
+        display: flex;
+        gap: 10px;
+        overflow-x: scroll;
+        z-index: 999;
+       
+    }
+
+    .carousel-mine-master .list::-webkit-scrollbar {
+        background-color: transparent;
+        height: 1px;
+    }
+
+    .carousel-mine-master .list .item {
+        min-width: 140px;
+        width: 160px;
+        padding: 0px;
+
+    }
+
+    .carousel-mine-master .list .item img {
+
+        border-radius: 0px;
+
+    }
+}
+
+@media screen and (min-width:1024) and (max-width:1280) {
+    .nav-filter{
+        position: absolute;
+        left: 94.5%;
+        top: 53px;
+    }
 }
