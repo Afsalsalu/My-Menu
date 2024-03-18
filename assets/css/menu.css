@@ -834,7 +834,7 @@
     height:265px;
     background-color:transparent;
     position: relative;
-    top: 500px;
+    top: 150px;
     border-radius: 8px;
 }
 
@@ -866,6 +866,22 @@
     margin-top: 15px;
     font-size: 12px;
     font-weight: 400;
+}
+
+.dubai-mall-headding-favorite-div{
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    position: relative;
+    top: 20px;
+}
+
+.first-page-side-icons-favorite-div{
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
 }
 
 
@@ -908,6 +924,7 @@
 
 
 
+
 @media(max-width:768px) {
     .carousel-mine-master .list {
         display: flex;
@@ -931,7 +948,7 @@
 
     .carousel-mine-master .list .item img {
 
-        border-radius: 0px;
+        border-radius: 6px;
 
     }
 }
@@ -1380,6 +1397,10 @@ label #btnf :hover{
     .footer-line {
         position: absolute;
         top: 528rem;
+    }
+
+    .carousel-mine-master .item img {
+        border-radius: 6px;
     }
 
 
