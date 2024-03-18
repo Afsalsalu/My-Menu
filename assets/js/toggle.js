@@ -21,9 +21,22 @@ $(document).ready(function(){
 
 
 
+
 // food menu //
 $(document).ready(function(){
     $("#food-icon").click(function(){
+        $(".sidebar-toggle-div2").show(100);
+    });
+    $(".bxs-chevrons-left").click(function(){
+        $(".sidebar-toggle-div2").hide(100);
+        
+    });
+});
+
+
+
+$(document).ready(function(){
+    $(".nav-filter").click(function(){
         $(".sidebar-toggle-div2").show(100);
     });
     $(".bxs-chevrons-left").click(function(){

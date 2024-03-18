@@ -1121,9 +1121,27 @@ label #btnf :hover{
    
 }
 
+.sidebar-toggle-div2{
+    width: 39%;
+    height: 100vh;
+    background-color: #616161;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    /* left: -500px; */
+   /* float: right; */
+   display: none;
+   
+}
+
 @media (max-width:576px) {
 
     .sidebar-toggle-div {
+        width: 100%;
+    }
+
+    .sidebar-toggle-div2 {
         width: 100%;
     }
 
