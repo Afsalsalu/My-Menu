@@ -1209,14 +1209,14 @@ label #btnf :hover{
     .serch-bar {
         position: absolute;
         left: 55px;
-        top: 32px;
+        top: 31px;
         width: 72%;
     }
 
     .nav-filter {
         position: absolute;
         left: 87%;
-        top: 32px;
+        top: 31px;
     }
 
     .sign-in-button {

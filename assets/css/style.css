@@ -274,9 +274,11 @@ label #btnf :hover{
     background-color: black;
     margin: 0 auto; 
     text-align: center;
-    margin-top: 240px;
+    /* margin-top: 240px; */
     border-radius: 100px;
     cursor: pointer;
+    position: relative;
+    top: 240px;
     transition: transform .2s;
  
 }
@@ -310,7 +312,7 @@ label #btnf :hover{
 
 .menu-and-menu{
     width: 783px;
-    height: 186px;
+    height: fit-content;
     background-color: rgb(128 119 119 / 54%);
     margin-top: -40px;
     /* margin-right: 10px; */
@@ -350,13 +352,21 @@ label #btnf :hover{
     margin-bottom: 2px;
     text-align: center;
     color: rgb(0, 0, 0);
-    transition: transform .1s;
+   
 }
 
 .menu-and-menu button:hover{
+   
+}
+
+.section-button {
+    transition: transform .1s;
+}
+
+.section-button:hover {
     -ms-transform: scale(.9); /* IE 9 */
-  -webkit-transform: scale(.9); /* Safari 3-8 */
-  transform: scale(.9);
+    -webkit-transform: scale(.9); /* Safari 3-8 */
+    transform: scale(.9);
 }
  
 
@@ -432,5 +442,56 @@ label #btnf :hover{
    display: none;
    
 }
+
+@media (max-width:576px) {
+    .menu-items-div {
+        position: absolute;
+        top: 345px;
+        left: 90px;
+    }
+
+    .menu-and-menu button {
+        width: 305px;
+    }
+
+    .menu-and-menu {
+        width: 305px;
+    }
+
+    .menu-and-menu {
+        margin-left:-60px;
+        margin-top: -77px;
+    }
+
+    .sidebar-toggle-div {
+        width: 100%;
+    }
+
+    .sidebar-toggle-div2 {
+        width: 100%;
+    }
+
+    .item-content {
+        padding-left: 7px;
+        position: relative;
+        bottom: 5px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .toggle-last-section-div {
+        padding-left: 120px;
+        padding-top: 354px;
+    }
+
+    .toggle-logo img {
+        padding-left: 25px;
+        width: 120px;
+    }
+
+
+    
+}
+
 
 
