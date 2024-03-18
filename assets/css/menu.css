@@ -619,7 +619,7 @@
 .bestseller-img-div img{
     width: 257px;
     height: 170px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
 }
