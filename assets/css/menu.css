@@ -1352,6 +1352,37 @@ label #btnf :hover{
         font-size: 16px;
     }
 
+    .craft-salad h1 {
+        position: absolute;
+        top: 349.5rem;
+        font-size: 16px;
+    }
+
+    .sauce-it-up h1 {
+        position: absolute;
+        top: 399.5rem;
+        font-size: 16px;
+    }
+
+    .kids-section-title h1 {
+        position: absolute;
+        top: 479.5rem;
+        font-size: 16px;
+    }
+
+
+    .footer-content-mine h1 {
+        position: absolute;
+        top: 528.5rem;
+       
+    }
+
+    .footer-line {
+        position: absolute;
+        top: 528rem;
+    }
+
+
 
 
 }
