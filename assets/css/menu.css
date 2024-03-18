@@ -198,7 +198,8 @@
     transition: all 0.5s ease;
     width: calc(100% - 60px);
     padding: 1rem;
-    padding-top: 22px;
+    margin-top: -23px;
+    /* padding-top: 22px; */
     /* overflow-y: auto; */
    
 
@@ -1100,19 +1101,63 @@ label #btnf :hover{
    background-color: #ffffff; */
 }
 
+.dropdown-content{
+    background-color: #616161;
+    margin-top: 12px;
+    width: 73px;
+    position: relative;
+    right: 29px;
+    display: none;
+    border-radius: 3px;
+    z-index: 1;
+   
+}
+
+.dropdown-content a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 10px;
+    padding-left: 10px;
+   
+}
+
 @media (max-width:576px) {
+
+    .sidebar-toggle-div {
+        width: 100%;
+    }
+
+    .item-content {
+        padding-left: 7px;
+        position: relative;
+        bottom: 5px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .toggle-last-section-div {
+        padding-left: 120px;
+        padding-top: 354px;
+    }
+
+    .toggle-logo img {
+        padding-left: 25px;
+        width: 120px;
+    }
+
 
     .main-content {
         padding: 0;
         padding-top: 0;
         left: 0;
         width: 100%;
+        margin-top: 0px;
     }
 
 
     .first-page-side-icons {
         position: absolute;
-        right: 5%;
+        right: 3%;
         top: -13px;
     }
 
@@ -1146,12 +1191,12 @@ label #btnf :hover{
         position: absolute;
         left: 60px;
         top: 32px;
-        width: 69.9%;
+        width: 70.9%;
     }
 
     .nav-filter {
         position: absolute;
-        left: 86%;
+        left: 87%;
         top: 32px;
     }
 
