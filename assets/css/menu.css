@@ -220,6 +220,12 @@
     font-weight: normal;
 }
 
+.dubai-mall-headding-favorite-div-favorite-section {
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+}
+
 
 .first-page-side-icons{
     display: flex;
@@ -1404,6 +1410,17 @@ label #btnf :hover{
     }
 
 
+        /* favorite section */
+
+        .first-page-side-icons-favorite-div {
+            position: absolute;
+            right: 10px;
+            top: -15px;
+        }
+
+        .dubai-mall-headding-favorite-div-favorite-section {
+            display: none;
+        }
 
 
 }
