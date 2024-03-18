@@ -584,13 +584,16 @@
     border-bottom-right-radius: 6px;
 } */
 
-.bestseller h1 {
+.bestseller {
     color: #fff;
     font-size: 14px;
     font-weight: normal;
-    position: absolute;
+    margin-bottom: 10px;
+    /* position: absolute;
     top: 33.5rem;
-    padding-left: 19px; 
+    padding-left: 19px;  */
+    /* position: relative;
+    top: -50px; */
 }
 
 .bestseller-name-div h1{
@@ -646,6 +649,17 @@
 }
 
 
+.and-one {
+   position: relative;
+   top: 473px;
+}
+
+.and-one-new {
+    position: relative;
+   top: 471px !important;
+}
+
+
 
 .bestseller-img-name-mine-second {
     display: grid;
@@ -658,7 +672,7 @@
     margin-top: 0px;
 }
 
-.WINGS-TENDERS h1{
+/* .WINGS-TENDERS h1{
     color: #fff;
     font-size: 14px;
     font-weight: normal;
@@ -666,7 +680,7 @@
     top: 108rem;
     padding-left: 20px;
     cursor:default;
-}
+} */
 
 
 .bestseller-name-mine-two{
@@ -702,14 +716,14 @@
     cursor:default;
 }
     
-.CRAFT-BURGERS h1{
+/* .CRAFT-BURGERS h1{
     color: #fff;
     font-size: 14px;
     font-weight: normal;
     position: absolute;
     top: 125.8rem;
     padding-left: 20px;
-}
+} */
 
 .bestseller-img-name-mine-third {
     display: grid;
@@ -720,7 +734,7 @@
     margin-top: 0px;
 }
 
-.specialty-fries h1{
+/* .specialty-fries h1{
     color: #fff;
     font-size: 14px;
     font-weight: normal;
@@ -728,7 +742,7 @@
     top: 200.6rem;
     padding-left: 20px;
      cursor:default;
-}
+} */
 
 .bestseller-img-name-mine-forth {
     display: grid;
@@ -740,16 +754,16 @@
 }
 
 
-.craft-salad h1{
+/* .craft-salad h1{
     color: #fff;
     font-size: 14px;
     font-weight: normal;
     position: absolute;
-    top: 237.3rem;
+    top: 238.7rem;
     padding-left: 20px; 
     cursor:default;
 
-}
+} */
 
 .bestseller-img-name-mine-craft-salad {
     display: grid;
@@ -780,7 +794,7 @@
     margin-top: 0px;
 }
 
-.sauce-it-up h1 {
+/* .sauce-it-up h1 {
     color: #fff;
     font-size: 14px;
     font-weight: normal;
@@ -788,9 +802,9 @@
     top: 298rem;
     padding-left: 20px;
     cursor:default;
-}
+} */
 
-.kids-section-title h1{
+/* .kids-section-title h1{
     color: #fff;
     font-size: 14px;
     font-weight: normal;
@@ -798,7 +812,7 @@
     top: 335.5rem;
     padding-left: 20px;
     cursor:default;
-}
+} */
 
 .footer-line{
     width: 100%;
@@ -1159,7 +1173,7 @@ label #btnf :hover{
    
 }
 
-@media (max-width:576px) {
+@media (max-width:430px) {
 
     .sidebar-toggle-div {
         width: 100%;
@@ -1233,7 +1247,7 @@ label #btnf :hover{
         position: absolute;
         left: 55px;
         top: 31px;
-        width: 72%;
+        width: 80%;
     }
 
     .nav-filter {
@@ -1268,6 +1282,11 @@ label #btnf :hover{
         left: 84px;
         top: -22px;
     }
+
+    .and-one {
+        position: relative;
+        top: 501px !important;
+     }
 
     .craft-burger-div-one img {
         position: absolute;
@@ -1424,3 +1443,817 @@ label #btnf :hover{
 
 
 }
+
+
+
+
+
+
+
+
+
+@media (max-width:560px) and (min-width:420px) {
+    .sidebar-toggle-div {
+        width: 50%;
+    }
+
+    .sidebar-toggle-div2 {
+        width: 50%;
+    }
+
+    .item-content {
+        padding-left: 7px;
+        position: relative;
+        bottom: 5px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .toggle-last-section-div {
+        padding-left: 120px;
+        padding-top: 635px;
+    }
+
+    .toggle-logo img {
+        padding-left: 25px;
+        width: 120px;
+    }
+
+
+    .main-content {
+        padding: 0;
+        padding-top: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+
+    .first-page-side-icons {
+        position: absolute;
+        right: 3%;
+        top: -13px;
+    }
+
+    .dubai-mall-headding {
+        position: absolute;
+        top: -5px;
+        left: 60px;
+        font-size: 12px;
+    }
+
+    label #btnf{
+        display: block;
+        
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .switch-to-view {
+        width: 36px;
+        height: 34px;
+        position: absolute;
+        left: 11px;
+        top: 29px;
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+
+    .serch-bar {
+        position: absolute;
+        left: 55px;
+        top: 31px;
+        width: 79%;
+    }
+
+    .nav-filter {
+        position: absolute;
+        left: 88.5%;
+        top: 31px;
+    }
+
+    .sign-in-button {
+        display: none;
+    }
+
+    .first-food-icon {
+        display: none;
+    }
+
+    .loyalty-div-one {
+        width: 100px;
+        position: absolute;
+        left: -15px;
+        top: -22px;
+    }
+
+    .loyalty-div-one i {
+        padding-left: 0px;
+        font-size: 30px;
+    }
+
+    .loyalty-div-two {
+        width: 240px;
+        position: absolute;
+        left: 84px;
+        top: -22px;
+    }
+
+    .craft-burger-div-one img {
+        position: absolute;
+        left: -18px;
+    }
+
+    .option-menu-mine {
+        position: absolute;
+        left: 15px;
+        top: 80px;
+    }
+
+    .carousel-mine-master .list {
+        display: flex;
+        gap: 10px;
+        overflow-x: scroll;
+        z-index: 999;
+    }
+
+    .carousel-mine-master .list .item {
+        min-width: 120px;
+        width: 160px;
+    }
+
+    .carousel-mine-master{
+        padding: 45px 0px;
+    }
+
+    .bestseller-img-name-mine-two {
+        width: 170px;
+        height: 235px;
+        position: relative;
+        top: 529px;
+        left: 0px;
+    }
+
+
+    .and-one {
+        position: relative;
+        top: 500px !important;
+     }
+    .bestseller-img-div img {
+        width: 170px;
+        height: 135px;
+    }
+
+    .bestseller-img-name-mine {
+        grid-template-columns: auto auto;
+        grid-gap: 10px 15px;
+        margin-top: -247px;
+    }
+
+    .bestseller-img-name-mine-second {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -357px;
+    }
+
+    .bestseller-img-name-mine-second {
+        position: relative;
+        right: 0px;
+        margin-top: 0px;
+    }
+
+    .bestseller-name-mine-two {
+        width: 170px;
+    }
+
+    .bestseller-img-name-mine-third {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -18px;
+    }
+
+    .bestseller-img-name-mine-forth {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -18px;
+    }
+
+    .bestseller-img-name-mine-craft-salad {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -18px;
+    }
+
+    .bestseller h1 {
+        font-size: 16px;
+    }
+
+    .WINGS-TENDERS h1 {
+        position: absolute;
+        top: 142.5rem;
+        font-size: 16px;
+    }
+
+    .CRAFT-BURGERS h1 {
+        position: absolute;
+        top: 174rem;
+        font-size: 16px;
+    }
+
+    .specialty-fries h1 {
+        position: absolute;
+        top: 301rem;
+        font-size: 16px;
+    }
+
+    .craft-salad h1 {
+        position: absolute;
+        top: 349.5rem;
+        font-size: 16px;
+    }
+
+    .sauce-it-up h1 {
+        position: absolute;
+        top: 399.5rem;
+        font-size: 16px;
+    }
+
+    .kids-section-title h1 {
+        position: absolute;
+        top: 479.5rem;
+        font-size: 16px;
+    }
+
+
+    .footer-content-mine h1 {
+        position: absolute;
+        top: 528.5rem;
+       
+    }
+
+    .footer-line {
+        position: absolute;
+        top: 528rem;
+    }
+
+    .carousel-mine-master .item img {
+        border-radius: 6px;
+    }
+
+
+        /* favorite section */
+
+        .first-page-side-icons-favorite-div {
+            position: absolute;
+            right: 10px;
+            top: -15px;
+        }
+
+        .dubai-mall-headding-favorite-div-favorite-section {
+            display: none;
+        }
+}
+
+@media (max-width:768px) and (min-width:550px) {
+    .sidebar-toggle-div {
+        width: 50%;
+    }
+
+    .sidebar-toggle-div2 {
+        width: 50%;
+    }
+
+    .item-content {
+        padding-left: 7px;
+        position: relative;
+        bottom: 5px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .toggle-last-section-div {
+        padding-left: 120px;
+        padding-top: 635px;
+    }
+
+    .toggle-logo img {
+        padding-left: 25px;
+        width: 120px;
+    }
+
+
+    .main-content {
+        padding: 0;
+        padding-top: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+
+    .first-page-side-icons {
+        position: absolute;
+        right: 3%;
+        top: -13px;
+    }
+
+    .dubai-mall-headding {
+        position: absolute;
+        top: -5px;
+        left: 60px;
+        font-size: 12px;
+    }
+
+    label #btnf{
+        display: block;
+        
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .switch-to-view {
+        width: 36px;
+        height: 34px;
+        position: absolute;
+        left: 11px;
+        top: 29px;
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+
+    .serch-bar {
+        position: absolute;
+        left: 55px;
+        top: 31px;
+        width: 79%;
+    }
+
+    .nav-filter {
+        position: absolute;
+        left: 88.5%;
+        top: 31px;
+    }
+
+    .sign-in-button {
+        display: none;
+    }
+
+    .first-food-icon {
+        display: none;
+    }
+
+    .loyalty-div-one {
+        width: 100px;
+        position: absolute;
+        left: -15px;
+        top: -22px;
+    }
+
+    .loyalty-div-one i {
+        padding-left: 0px;
+        font-size: 30px;
+    }
+
+    .loyalty-div-two {
+        width: 240px;
+        position: absolute;
+        left: 84px;
+        top: -22px;
+    }
+
+    .craft-burger-div-one img {
+        position: absolute;
+        left: -18px;
+    }
+
+    .option-menu-mine {
+        position: absolute;
+        left: 15px;
+        top: 80px;
+    }
+
+    .carousel-mine-master .list {
+        display: flex;
+        gap: 10px;
+        overflow-x: scroll;
+        z-index: 999;
+    }
+
+    .carousel-mine-master .list .item {
+        min-width: 120px;
+        width: 160px;
+    }
+
+    .carousel-mine-master{
+        padding: 45px 0px;
+    }
+
+    .bestseller-img-name-mine-two {
+        width: 245px;
+        height: 330px;
+        position: relative;
+        top: 529px;
+        left: 0px;
+    }
+
+    .bestseller-img-div img {
+        width: 245px;
+        height: 220px;
+    }
+
+    .bestseller-img-name-mine {
+        grid-template-columns: auto auto;
+        grid-gap: 10px 15px;
+        margin-top: -247px;
+    }
+
+    .bestseller-img-name-mine-second {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -357px;
+    }
+
+    .bestseller-img-name-mine-second {
+        position: relative;
+        right: 0px;
+        margin-top: 0px;
+    }
+
+    .bestseller-name-mine-two {
+        width: 245px;
+    }
+
+    .bestseller-img-name-mine-third {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -18px;
+    }
+
+    .bestseller-img-name-mine-forth {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -18px;
+    }
+
+    .bestseller-img-name-mine-craft-salad {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -18px;
+    }
+
+    .bestseller h1 {
+        font-size: 16px;
+    }
+
+    .WINGS-TENDERS h1 {
+        position: absolute;
+        top: 142.5rem;
+        font-size: 16px;
+    }
+
+    .CRAFT-BURGERS h1 {
+        position: absolute;
+        top: 174rem;
+        font-size: 16px;
+    }
+
+    .specialty-fries h1 {
+        position: absolute;
+        top: 301rem;
+        font-size: 16px;
+    }
+
+    .craft-salad h1 {
+        position: absolute;
+        top: 349.5rem;
+        font-size: 16px;
+    }
+
+    .sauce-it-up h1 {
+        position: absolute;
+        top: 399.5rem;
+        font-size: 16px;
+    }
+
+    .kids-section-title h1 {
+        position: absolute;
+        top: 479.5rem;
+        font-size: 16px;
+    }
+
+
+    .footer-content-mine h1 {
+        position: absolute;
+        top: 528.5rem;
+       
+    }
+
+    .footer-line {
+        position: absolute;
+        top: 528rem;
+    }
+
+    .carousel-mine-master .item img {
+        border-radius: 6px;
+    }
+
+
+        /* favorite section */
+
+        .first-page-side-icons-favorite-div {
+            position: absolute;
+            right: 10px;
+            top: -15px;
+        }
+
+        .dubai-mall-headding-favorite-div-favorite-section {
+            display: none;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-filter {
+        position: absolute;
+        left: 92.5%;
+    }
+
+    .serch-bar {
+        position: absolute;
+        width: 87%;
+    }
+
+    .and-one {
+        position: relative;
+        top: 502px;
+    }
+  }
+
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .sidebar-toggle-div {
+        width: 50%;
+    }
+
+    .sidebar-toggle-div2 {
+        width: 50%;
+    }
+
+    .item-content {
+        padding-left: 7px;
+        position: relative;
+        bottom: 5px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .toggle-last-section-div {
+        padding-left: 120px;
+        padding-top: 635px;
+    }
+
+    .toggle-logo img {
+        padding-left: 25px;
+        width: 120px;
+    }
+
+
+    .main-content {
+        padding: 0;
+        padding-top: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+
+    .first-page-side-icons {
+        position: absolute;
+        right: 3%;
+        top: -13px;
+    }
+
+    .dubai-mall-headding {
+        position: absolute;
+        top: -5px;
+        left: 60px;
+        font-size: 12px;
+    }
+
+    label #btnf{
+        display: block;
+        
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .switch-to-view {
+        width: 36px;
+        height: 34px;
+        position: absolute;
+        left: 11px;
+        top: 29px;
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+
+    .serch-bar {
+        position: absolute;
+        left: 55px;
+        top: 31px;
+        width: 79%;
+    }
+
+    .nav-filter {
+        position: absolute;
+        left: 88.5%;
+        top: 31px;
+    }
+
+    .sign-in-button {
+        display: none;
+    }
+
+    .first-food-icon {
+        display: none;
+    }
+
+    .loyalty-div-one {
+        width: 100px;
+        position: absolute;
+        left: -15px;
+        top: -22px;
+    }
+
+    .loyalty-div-one i {
+        padding-left: 0px;
+        font-size: 30px;
+    }
+
+    .loyalty-div-two {
+        width: 240px;
+        position: absolute;
+        left: 84px;
+        top: -22px;
+    }
+
+    .craft-burger-div-one img {
+        position: absolute;
+        left: -18px;
+    }
+
+    .option-menu-mine {
+        position: absolute;
+        left: 15px;
+        top: 80px;
+    }
+
+    .carousel-mine-master .list {
+        display: flex;
+        gap: 10px;
+        overflow-x: scroll;
+        z-index: 999;
+    }
+
+    .carousel-mine-master .list .item {
+        min-width: 120px;
+        width: 160px;
+    }
+
+    .carousel-mine-master{
+        padding: 45px 0px;
+    }
+
+    .bestseller-img-name-mine-two {
+        width: 385px;
+        height: 330px;
+        position: relative;
+        top: 529px;
+        left: 0px;
+    }
+
+    .bestseller-img-div img {
+        width: 385px;
+        height: 220px;
+    }
+
+    .bestseller-img-name-mine {
+        grid-template-columns: auto auto;
+        grid-gap: 10px 15px;
+        margin-top: -247px;
+    }
+
+    .bestseller-img-name-mine-second {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -357px;
+    }
+
+    .bestseller-img-name-mine-second {
+        position: relative;
+        right: 0px;
+        margin-top: 0px;
+    }
+
+    .bestseller-name-mine-two {
+        width: 385px;
+    }
+
+    .bestseller-img-name-mine-third {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -18px;
+    }
+
+    .bestseller-img-name-mine-forth {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -18px;
+    }
+
+    .bestseller-img-name-mine-craft-salad {
+        grid-template-columns: auto auto ;
+        grid-gap: 15px 15px;
+        margin-top: -18px;
+    }
+
+    .bestseller h1 {
+        font-size: 16px;
+    }
+
+    .WINGS-TENDERS h1 {
+        position: absolute;
+        top: 142.5rem;
+        font-size: 16px;
+    }
+
+    .CRAFT-BURGERS h1 {
+        position: absolute;
+        top: 174rem;
+        font-size: 16px;
+    }
+
+    .specialty-fries h1 {
+        position: absolute;
+        top: 301rem;
+        font-size: 16px;
+    }
+
+    .craft-salad h1 {
+        position: absolute;
+        top: 349.5rem;
+        font-size: 16px;
+    }
+
+    .sauce-it-up h1 {
+        position: absolute;
+        top: 399.5rem;
+        font-size: 16px;
+    }
+
+    .kids-section-title h1 {
+        position: absolute;
+        top: 479.5rem;
+        font-size: 16px;
+    }
+
+
+    .footer-content-mine h1 {
+        position: absolute;
+        top: 528.5rem;
+       
+    }
+
+    .footer-line {
+        position: absolute;
+        top: 528rem;
+    }
+
+    .carousel-mine-master .item img {
+        border-radius: 6px;
+    }
+
+
+        /* favorite section */
+
+        .first-page-side-icons-favorite-div {
+            position: absolute;
+            right: 10px;
+            top: -15px;
+        }
+
+        .dubai-mall-headding-favorite-div-favorite-section {
+            display: none;
+        }
+
+
+        .and-one {
+            position: relative;
+            top: 502px;
+        }
+  }
