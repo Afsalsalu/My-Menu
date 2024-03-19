@@ -1,8 +1,8 @@
 /* side navbar */
 
-.background-image{
-    /* background-image: url(/assets/images/second-page-background.webp); */
-    /* width: 100%; */
+/* .background-image{
+    background-image: url(/assets/images/second-page-background.webp);
+    width: 100%;
     height: fit-content; 
     background-position: center center;
     background-size: cover;
@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- }
+ } */
 
 .economica-regular {
     font-family: "Economica", sans-serif;
@@ -745,8 +745,8 @@
 } */
 
 .bestseller-img-name-mine-forth {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    /* display: grid;
+    grid-template-columns: auto auto auto auto; */
     grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 50px;
@@ -1247,12 +1247,12 @@ label #btnf :hover{
         position: absolute;
         left: 55px;
         top: 31px;
-        width: 80%;
+        width: 77% !important;
     }
 
     .nav-filter {
         position: absolute;
-        left: 87%;
+        left: 87% !important;
         top: 31px;
     }
 
@@ -2066,12 +2066,12 @@ label #btnf :hover{
         position: absolute;
         left: 55px;
         top: 31px;
-        width: 79%;
+        width: 89%;
     }
 
     .nav-filter {
         position: absolute;
-        left: 88.5%;
+        left: 93%;
         top: 31px;
     }
 
