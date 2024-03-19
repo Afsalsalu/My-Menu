@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 /* side navbar */
 
 .background-image{
@@ -1414,14 +1418,16 @@ label #btnf :hover{
 
 
     .footer-content-mine h1 {
-        position: absolute;
-        top: 528.5rem;
+        /* position: absolute;
+        top: 528.5rem; */
+        display: none;
        
     }
 
     .footer-line {
-        position: absolute;
-        top: 528rem;
+        /* position: absolute;
+        top: 528rem; */
+        display: none;
     }
 
     .carousel-mine-master .item img {
@@ -1646,56 +1652,18 @@ label #btnf :hover{
         margin-top: -18px;
     }
 
-    .bestseller h1 {
-        font-size: 16px;
-    }
-
-    .WINGS-TENDERS h1 {
-        position: absolute;
-        top: 142.5rem;
-        font-size: 16px;
-    }
-
-    .CRAFT-BURGERS h1 {
-        position: absolute;
-        top: 174rem;
-        font-size: 16px;
-    }
-
-    .specialty-fries h1 {
-        position: absolute;
-        top: 301rem;
-        font-size: 16px;
-    }
-
-    .craft-salad h1 {
-        position: absolute;
-        top: 349.5rem;
-        font-size: 16px;
-    }
-
-    .sauce-it-up h1 {
-        position: absolute;
-        top: 399.5rem;
-        font-size: 16px;
-    }
-
-    .kids-section-title h1 {
-        position: absolute;
-        top: 479.5rem;
-        font-size: 16px;
-    }
-
-
+ 
     .footer-content-mine h1 {
-        position: absolute;
-        top: 528.5rem;
+        /* position: absolute;
+        top: 528.5rem; */
+        display: none;
        
     }
 
     .footer-line {
-        position: absolute;
-        top: 528rem;
+        /* position: absolute;
+        top: 528rem; */
+        display: none;
     }
 
     .carousel-mine-master .item img {
@@ -1905,56 +1873,17 @@ label #btnf :hover{
         margin-top: -18px;
     }
 
-    .bestseller h1 {
-        font-size: 16px;
-    }
-
-    .WINGS-TENDERS h1 {
-        position: absolute;
-        top: 142.5rem;
-        font-size: 16px;
-    }
-
-    .CRAFT-BURGERS h1 {
-        position: absolute;
-        top: 174rem;
-        font-size: 16px;
-    }
-
-    .specialty-fries h1 {
-        position: absolute;
-        top: 301rem;
-        font-size: 16px;
-    }
-
-    .craft-salad h1 {
-        position: absolute;
-        top: 349.5rem;
-        font-size: 16px;
-    }
-
-    .sauce-it-up h1 {
-        position: absolute;
-        top: 399.5rem;
-        font-size: 16px;
-    }
-
-    .kids-section-title h1 {
-        position: absolute;
-        top: 479.5rem;
-        font-size: 16px;
-    }
-
-
     .footer-content-mine h1 {
-        position: absolute;
-        top: 528.5rem;
+        /* position: absolute;
+        top: 528.5rem; */
+        display: none;
        
     }
 
     .footer-line {
-        position: absolute;
-        top: 528rem;
+        /* position: absolute;
+        top: 528rem; */
+        display: none;
     }
 
     .carousel-mine-master .item img {
@@ -2182,56 +2111,18 @@ label #btnf :hover{
         margin-top: -18px;
     }
 
-    .bestseller h1 {
-        font-size: 16px;
-    }
-
-    .WINGS-TENDERS h1 {
-        position: absolute;
-        top: 142.5rem;
-        font-size: 16px;
-    }
-
-    .CRAFT-BURGERS h1 {
-        position: absolute;
-        top: 174rem;
-        font-size: 16px;
-    }
-
-    .specialty-fries h1 {
-        position: absolute;
-        top: 301rem;
-        font-size: 16px;
-    }
-
-    .craft-salad h1 {
-        position: absolute;
-        top: 349.5rem;
-        font-size: 16px;
-    }
-
-    .sauce-it-up h1 {
-        position: absolute;
-        top: 399.5rem;
-        font-size: 16px;
-    }
-
-    .kids-section-title h1 {
-        position: absolute;
-        top: 479.5rem;
-        font-size: 16px;
-    }
-
-
+    
     .footer-content-mine h1 {
-        position: absolute;
-        top: 528.5rem;
+        /* position: absolute;
+        top: 528.5rem; */
+        display: none;
        
     }
 
     .footer-line {
-        position: absolute;
-        top: 528rem;
+        /* position: absolute;
+        top: 528rem; */
+        display: none;
     }
 
     .carousel-mine-master .item img {
