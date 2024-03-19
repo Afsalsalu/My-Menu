@@ -1,6 +1,6 @@
 /* side navbar */
 
-/* .background-image{
+.background-image{
     background-image: url(/assets/images/second-page-background.webp);
     width: 100%;
     height: fit-content; 
@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- } */
+ }
 
 .economica-regular {
     font-family: "Economica", sans-serif;
@@ -338,7 +338,7 @@
 } */
 
 .serch-bar{
-    width: 84.9%;
+    width: 88.9%;
     height: 33px;
     background-color: #ffffff;
     border: 1px solid #ffffff;
@@ -745,8 +745,8 @@
 } */
 
 .bestseller-img-name-mine-forth {
-    /* display: grid;
-    grid-template-columns: auto auto auto auto; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     grid-gap: 25px 25px;
     padding: 10px;
     padding-top: 50px;
@@ -1993,7 +1993,7 @@ label #btnf :hover{
   }
 
 
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
     .sidebar-toggle-div {
         width: 50%;
     }
