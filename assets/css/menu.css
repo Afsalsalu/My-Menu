@@ -328,6 +328,7 @@ html {
     position: absolute;
     left: 15px;
     top: 53px;
+    display: none;
 }
 
 .switch-to-view i {
@@ -342,12 +343,13 @@ html {
 } */
 
 .serch-bar{
-    width: 88.9%;
+    width: 86.9%;
     height: 33px;
     background-color: #ffffff;
     border: 1px solid #ffffff;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+    /* border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px; */
+    border-radius: 6px;
     position: absolute;
     left: 128px;
     top: 53px;
@@ -366,8 +368,9 @@ html {
     height: 33px;
     background-color: #ffffff;
     border: 1px solid #ffffff;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    /* border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px; */
+    border-radius: 6px;
     position: absolute;
     left: 96%;
     top: 53px;
@@ -1256,16 +1259,22 @@ label #btnf :hover{
 
     .serch-bar {
         position: absolute;
-        left: 55px;
+        left: 15px;
         top: 31px;
-        width: 77% !important;
+        width: 80% !important;
     }
 
     .nav-filter {
         position: absolute;
-        left: 87% !important;
+        left: 85.5% !important;
         top: 31px;
+        width: 42px;
     }
+
+    .nav-filter span {
+        padding-left: 11px;
+    }
+
 
     .sign-in-button {
         display: none;
@@ -1345,20 +1354,20 @@ label #btnf :hover{
 
     .bestseller-img-name-mine {
         grid-template-columns: auto auto;
-        grid-gap: 10px 15px;
+        grid-gap: 10px 10px;
         margin-top: -247px;
     }
 
     .bestseller-img-name-mine-second {
         grid-template-columns: auto auto;
-        grid-gap: 15px 15px;
+        grid-gap: 15px 10px;
         margin-top: -357px;
     }
 
     .bestseller-img-name-mine-second {
         position: relative;
         right: 0px;
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
     .bestseller-name-mine-two {
@@ -1367,14 +1376,23 @@ label #btnf :hover{
 
     .bestseller-img-name-mine-third {
         grid-template-columns: auto auto;
-        grid-gap: 15px 15px;
+        grid-gap: 15px 10px;
         margin-top: -18px;
     }
 
     .bestseller-img-name-mine-forth {
         grid-template-columns: auto auto;
-        grid-gap: 15px 15px;
+        grid-gap: 15px 10px;
         margin-top: -18px;
+    }
+
+    .bestseller-img-name-mine-off-the-record{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 25px 10px;
+        padding: 10px;
+        padding-top: 50px;
+        margin-top: 0px;
     }
 
     .bestseller-img-name-mine-craft-salad {
@@ -2196,6 +2214,17 @@ label #btnf :hover{
     .modal-content-wrapper .image-modal-content {
       flex: 0 0 100%;
     }
+
+    .image-modal-popup .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 90px !important;
+        position: relative;
+      }
+
   }
   .modal-content-wrapper .image-modal-content:hover {
     transform: scale(1.03);
@@ -2246,14 +2275,14 @@ label #btnf :hover{
     text-align: center;
   }
   .image-modal-popup img {
-    width: 60%;
+    width: 75%;
     max-height: calc(100vh - 150px);
     margin-bottom: 10px;
     cursor: pointer;
   }
   .image-modal-popup span {
     position: absolute;
-    top: -19px !important;
+    top: -50px !important;
     right: 50px;
     font-size: 4rem;
     color: rgb(255, 255, 255);
