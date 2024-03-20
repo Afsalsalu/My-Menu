@@ -343,7 +343,7 @@ html {
 } */
 
 .serch-bar{
-    width: 86.9%;
+    width: 89.9%;
     height: 33px;
     background-color: #ffffff;
     border: 1px solid #ffffff;
@@ -351,7 +351,7 @@ html {
     border-bottom-left-radius: 6px; */
     border-radius: 6px;
     position: absolute;
-    left: 128px;
+    left: 20px;
     top: 53px;
     color: #000000;
     font-size: 12px;
@@ -364,7 +364,7 @@ html {
 }
 
 .nav-filter{
-    width: 35px;
+    width: 80px;
     height: 33px;
     background-color: #ffffff;
     border: 1px solid #ffffff;
@@ -372,13 +372,13 @@ html {
     border-bottom-right-radius: 6px; */
     border-radius: 6px;
     position: absolute;
-    left: 96%;
+    left: 92%;
     top: 53px;
 }
 
 .nav-filter span {
     font-size: 20px;
-    padding-left: 7px;
+    padding-left: 32px;
 }
 
 .option-menu-mine{
@@ -1558,15 +1558,20 @@ label #btnf :hover{
 
     .serch-bar {
         position: absolute;
-        left: 55px;
+        left: 14px;
         top: 31px;
-        width: 79%;
+        width: 85% !important;
     }
 
     .nav-filter {
         position: absolute;
-        left: 88.5%;
+        left: 88.5% !important;
         top: 31px;
+        width: 43px;
+    }
+
+    .nav-filter span {
+        padding-left: 12px;
     }
 
     .sign-in-button {
@@ -1673,6 +1678,15 @@ label #btnf :hover{
         grid-template-columns: auto auto ;
         grid-gap: 15px 15px;
         margin-top: -18px;
+    }
+
+    .bestseller-img-name-mine-off-the-record{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 25px 10px;
+        padding: 10px;
+        padding-top: 50px;
+        margin-top: 0px;
     }
 
     .bestseller-img-name-mine-craft-salad {
@@ -1784,15 +1798,20 @@ label #btnf :hover{
 
     .serch-bar {
         position: absolute;
-        left: 55px;
+        left: 14px;
         top: 31px;
-        width: 79%;
+        width: 86% !important;
     }
 
     .nav-filter {
         position: absolute;
-        left: 88.5%;
+        left: 89.5% !important;
         top: 31px;
+        width: 43px;
+    }
+
+    .nav-filter span {
+        padding-left: 12px;
     }
 
     .sign-in-button {
@@ -1896,6 +1915,15 @@ label #btnf :hover{
         margin-top: -18px;
     }
 
+    .bestseller-img-name-mine-off-the-record{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 25px 10px;
+        padding: 10px;
+        padding-top: 50px;
+        margin-top: 0px;
+    }
+
     .bestseller-img-name-mine-craft-salad {
         grid-template-columns: auto auto ;
         grid-gap: 15px 15px;
@@ -1934,15 +1962,8 @@ label #btnf :hover{
 }
 
 @media only screen and (max-width: 768px) {
-    .nav-filter {
-        position: absolute;
-        left: 92.5%;
-    }
-
-    .serch-bar {
-        position: absolute;
-        width: 87%;
-    }
+   
+    
 
     .and-one {
         position: relative;
@@ -2022,15 +2043,20 @@ label #btnf :hover{
 
     .serch-bar {
         position: absolute;
-        left: 55px;
-        top: 31px;
-        width: 89%;
+        width: 88.5%;
+        left: 14px;
+        top: 32px;
     }
 
     .nav-filter {
         position: absolute;
-        left: 93%;
+        left: 91.5% !important;
         top: 31px;
+        width: 43px;
+    }
+
+    .nav-filter span {
+        padding-left: 13px;
     }
 
     .sign-in-button {
@@ -2132,6 +2158,15 @@ label #btnf :hover{
         grid-template-columns: auto auto ;
         grid-gap: 15px 15px;
         margin-top: -18px;
+    }
+
+    .bestseller-img-name-mine-off-the-record{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 25px 10px;
+        padding: 10px;
+        padding-top: 50px;
+        margin-top: 0px;
     }
 
     .bestseller-img-name-mine-craft-salad {
