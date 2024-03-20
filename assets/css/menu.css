@@ -2185,6 +2185,12 @@ label #btnf :hover{
     .modal-content-wrapper .image-modal-content {
       flex: 0 0 45%;
     }
+    .carousel-mine-master .list {
+        display: flex;
+        gap: 10px;
+        overflow-x: scroll;
+        z-index: 999;
+    }
   }
   @media (max-width: 550px) {
     .modal-content-wrapper .image-modal-content {
@@ -2256,7 +2262,12 @@ label #btnf :hover{
   }
   .image-modal-popup p {
     margin: 5px auto;
-    font-size: 1.1rem;
+    font-size: 12px;
+  }
+
+  .image-modal-popup h1 {
+    margin: 5px auto;
+    font-size: 14px;
   }
   .image-modal-popup a {
     margin-bottom: 5px;
@@ -2270,4 +2281,5 @@ label #btnf :hover{
     border-radius: 6px;
     display: none;
   }
-  
+
+   
